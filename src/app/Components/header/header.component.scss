@@ -1,0 +1,55 @@
+
+@media screen {
+    .header .container{
+        --bs-gutter-x: .5rem;
+    }
+    ul.navbar-nav .nav-item .nav-link{
+        padding-right: 5px;
+    }
+}
+
+.header {
+    padding: 10px 0;
+    box-shadow: 0 0 10px black;
+    direction: ltr;
+    position: fixed;
+    top: 0px;
+    z-index: 34;
+    width: 100%;
+    background-color: white;
+    min-height: 92px;
+}
+ul.navbar-nav {
+    margin-right: -37px;
+    margin-top: 5px;
+}
+.header .nav-item {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.nav-link{
+    margin-bottom: 0px;
+}
+.active,
+.nav-link:hover{
+    background-color: #eee !important;
+    color: #0088e0 !important;
+    border-radius: 5px;
+}
+.navbar-toggler {
+    background: transparent;
+    outline: 0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0;
+}
+.navbar-toggler-icon {
+    width: 22px;
+    height: 28px;
+}
+.navbar>.container-fluid{
+    padding: 0px 2px;
+}
