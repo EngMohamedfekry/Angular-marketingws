@@ -1,3 +1,135 @@
+
+/* <!-- -------------------------------Applications design company------------------------------- --> */
+.design-company{
+    margin-top: 100px;
+}
+.design-image {
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+}
+.span1 {
+    color: orangered;
+}
+
+.span2 {
+    color: blue;
+}
+.line {
+    width: 5px;
+    height: 130px;
+    background-color: blue;
+    margin-top: -170px;
+    margin-left: 10px;
+    margin-right: -15px;
+}
+
+.line2 {
+    width: 5px;
+    height: 90px;
+    background-color: blue;
+    margin-top: -100px;
+    margin-right: -15px;
+}
+/* <!-- ------------------------------Company disign app------------------------------ --> */
+.comapp {
+    text-align: center;
+}
+.span3 {
+    color: blue;
+}
+/* <!-- ------------------------------------------شركة فكرة تعمل  --> */
+.our-services .row .col-6 img {
+    width: 100%;
+}
+
+.our-services  .col-6 {
+    text-align: center;
+}
+.thired-parag {
+    margin-right: 20px;
+}
+
+.fourth-parag {
+    margin-right: 30px;
+}
+
+.fivth-parag {
+    margin-right: 60px;
+}
+
+.figure5 {
+    width: 100%;
+
+}
+/* <!-- -------------------------------All neded--------------------------------------------------------------------------- */
+
+.Allneded {
+    display: flex;
+}
+
+.Allnededdiv1 img,
+.Allnededdiv2 img {
+    width: 107px;
+    height: 107px;
+    margin-top: 14px;
+}
+
+.Allnededdiv1 {
+    flex: 1;
+}
+/* <!-- -------------------------------Store applications------------------------------------------------------------ --> */
+.stor {
+    text-align: center;
+}
+
+.stor .h22 {
+    margin-right: -5px;
+}
+.stor .texts-div{
+    padding: 0px 50px;
+}
+.stor img{
+    width: auto;
+}
+/* <!-- ------------------------------- company-programs part -------------------------------- --> */
+.co-programs .texts-div {
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.co-programs .texts-div p {
+    font-size: 18px;
+}
+/* <!-- ------------------------------- Private applications -------------------------------- --> */
+.menyservices {
+    color: #7f4398;
+    text-align: right;
+    font-family: Abril Fatface;
+    margin-right: 40px;
+}
+/* <!-- ------------------------------- Mobile applications to promote your business -------------------------------- --> */
+.h2serv {
+    color: #7f4398;
+    text-align: right;
+    font-family: Abril Fatface;
+    margin-right: 30px;
+}
+.row .simple-text {
+    margin-right: 66px;
+}
+
+.row .h2serv {
+    margin-right: 100px;
+}
+.figure2 {
+    width: 400px;
+}
+
+
+
+
+
 @media screen and (max-width:700px) {
     .container .co-programs .texts-div {
         padding-right: 0px;
@@ -21,6 +153,9 @@
 
     .fgr .row {
         margin-right: 2%;
+    }
+    .design-image{
+        width: 100%;
     }
 
     .row .simple-text {
@@ -74,198 +209,5 @@
         margin-right: 0px;
     }
 
-    /* .row .figure2{
-width: 10%;
-margin-right: 12px;
-} */
 }
 
-.set-margin-for-header {
-    padding-top: 20px;
-}
-
-.row {
-    overflow-x: hidden;
-    width: 100%;
-}
-
-.app {
-    display: flex;
-    align-items: center;
-}
-
-.appimg {
-    width: 500px;
-    height: 400px;
-    margin-top: 50px;
-}
-
-.app h2 {
-    margin-right: 70px;
-}
-
-.h22 {
-    margin-right: 200px;
-}
-
-.span1 {
-    color: orangered;
-}
-
-.span2 {
-    color: blue;
-}
-
-.span3 {
-    color: blue;
-}
-
-.appdiv {
-    flex: 1;
-
-}
-
-.line {
-    width: 5px;
-    height: 130px;
-    background-color: blue;
-    margin-top: -170px;
-    margin-left: 10px;
-    margin-right: -15px;
-}
-
-.line2 {
-    width: 5px;
-    height: 90px;
-    background-color: blue;
-    margin-top: -100px;
-    margin-right: -15px;
-}
-
-.fgr .row .col-6 img {
-    width: 100%;
-}
-
-.comapp {
-    text-align: center;
-}
-
-// <!-- شركة فكرة تعمل  -->
-.thired-parag {
-    margin-right: 20px;
-}
-
-.fourth-parag {
-    margin-right: 30px;
-}
-
-.fivth-parag {
-    margin-right: 60px;
-}
-
-.fgr .col-6 {
-    text-align: center;
-}
-
-.figure5 {
-    width: 100%;
-
-}
-
-.stor {
-    text-align: center;
-}
-
-.stor .h22 {
-    margin-right: -5px;
-}
-.stor .texts-div{
-    padding: 0px 50px;
-}
-.stor img{
-    width: auto;
-}
-
-.row .simple-text {
-    margin-right: 66px;
-}
-
-.row .h2serv {
-    margin-right: 100px;
-}
-
-.titel {
-    text-align: center;
-}
-
-.appstore {
-    display: flex;
-    align-items: center;
-    margin-right: 200px;
-}
-
-.appstorediv1 {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.appstorediv1 figure {
-    margin-right: 200px;
-}
-
-.figu3 {
-    width: 300px;
-}
-.figu3 img{
-    width: auto;
-}
-.menyservices {
-    color: #7f4398;
-    text-align: right;
-    font-family: Abril Fatface;
-    margin-right: 40px;
-}
-
-.h2serv {
-    color: #7f4398;
-    text-align: right;
-    font-family: Abril Fatface;
-    margin-right: 30px;
-}
-
-.figure2 {
-    width: 400px;
-}
-
-.last-container .col-sm-4 {
-    margin-left: -15px;
-}
-
-.figure5 img {
-    width: auto !important;
-}
-
-// <!-- ------------------------------- co-programs part -------------------------------- -->
-.co-programs .texts-div {
-    padding-top: 40px;
-    padding-right: 40px;
-}
-
-.co-programs .texts-div p {
-    font-size: 18px;
-}
-
-.Allneded {
-    display: flex;
-}
-
-.Allnededdiv1 img,
-.Allnededdiv2 img {
-    width: 107px;
-    height: 107px;
-    margin-top: 14px;
-}
-
-.Allnededdiv1 {
-    flex: 1;
-}
