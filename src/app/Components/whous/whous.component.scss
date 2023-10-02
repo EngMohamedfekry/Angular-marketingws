@@ -5,96 +5,7 @@
 .body {
     overflow-x: hidden;
 }
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-12 {
-    flex: 100%;
-    padding: 18px;
-}
-
-@media screen and (max-width:700px) {
-    .who-are-we .row {
-        flex: 60%;
-    }
-
-    body {
-        margin-left: 11%;
-    }
-
-    .footer {
-        margin-left: -13%;
-    }
-
-    .row .col-12 {
-        padding: 18px;
-    }
-
-    .who-are-we .row {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-    .Service-container {
-        justify-content: center;
-    }
-
-    .main-team {
-        justify-content: center;
-        display: flex;
-    }
-
-    .Service-container .row {
-        margin-right: 0px;
-        margin-left: 0px;
-        justify-content: center;
-    }
-
-    .team .row {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-    .maindiv .row {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-    .values-and-principles .Icons {
-        display: block;
-    }
-
-    .values-and-principles .conspt {
-        justify-content: center;
-        display: flex;
-    }
-
-    .teams {
-        padding: 10px;        
-    }
-
-    /* .who-are-we  .row .col-12{
-padding: 18px;
-    } */
-
-    .Services .row {
-        margin-right: 800px;
-    }
-
-    .success .succdiv2 {
-        height: 86px;
-    }
-
-    .row .team5 {
-        width: 100%;
-    }
-
-}
-
-
+/* ---------who are we----------------------------------- */
 .Aboutus {
     margin-top: 70px;
     font-size: 40px;
@@ -102,23 +13,18 @@ padding: 18px;
     color: cornflowerblue;
 }
 
-.text-block1 {
-    width: 600px;
-    text-align: center;
-    margin-right: 320px;
-}
+/* ---------------------values ​​and principles----------- */
 
-.text-block1 p {
-    text-align: center;
-    margin-right: -40px;
-}
-
-.conspt {
+.values-and-principles .h2{
     font-size: 40px;
     text-align: center;
     color: cornflowerblue;
+    justify-content: center;
+    display: flex;
 }
-
+.values-and-principles .Icons {
+    display: block;
+}
 .Icons {
     display: flex;
     align-items: center;
@@ -127,27 +33,35 @@ padding: 18px;
 .Icon2 {
     flex: 1;
     font-size: 35px;
+    display: inline-block;
+    padding: 70px;
 }
 
 .Icon2 span {
     font-size: 25px;
 }
 
-
-.simple-text2 {
-    width: 600px;
+/* --------------------------services--------------------------------- */
+.Service-container {
+    justify-content: center;
 }
-
-.simple-text2 p {
-    text-align: center;
+.Service-container .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
 }
-
+.Services .row {
+    margin-right: 800px;
+}
 .Services {
     font-size: 40px;
     text-align: center;
     color: cornflowerblue;
 }
-
+.imagservic {
+    border-radius: 200px;
+    width: 160px;
+}
 .serviceimage {
     display: flex;
     justify-content: space-evenly;
@@ -172,26 +86,22 @@ padding: 18px;
 .service1 a {
     color: #000000;
 }
-
-.imagservic {
-    border-radius: 200px;
-    width: 160px;
+/* --------------------------Team members----------------- */
+.Team-members {
+    justify-content: center;
+    display: flex;
 }
-
-.team {
+.teams {
+    padding: 10px;        
+}
+.teams .h2 {
     font-size: 40px;
     text-align: center;
     color: cornflowerblue;
 }
-
-.divteam {
-    display: flex;
-    align-items: center;
-    padding: 1%;
-    width: 90%;
-    margin-right: 60px;
+.team{
+    padding: 70px;
 }
-
 .imgdiv {
     background-color: gainsboro;
     border-radius: 50%;
@@ -200,28 +110,14 @@ padding: 18px;
     height: 100px;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: -50px;
 }
 
 .imgdiv img {
     max-width: 100%;
     max-height: 100%;
 }
-
-.team1 {
-    height: 180px;
-    border-color: darkorange;
-    border-radius: 20px;
-    border-width: 1px;
-    background-color: white;
-    border-style: solid;
-    margin-inline: 1%;
-    margin-bottom: 24px;
-    width: 30%;
-
-}
-
-.team5 {
+.team {
     height: 180px;
     border-color: darkorange;
     border-radius: 20px;
@@ -235,21 +131,7 @@ padding: 18px;
     justify-content: center;
 }
 
-.team1 figure {
-    width: 40%;
-    margin-right: 100%;
-}
-
-.team1 image {
-    width: 45px;
-    height: 70px;
-
-}
-
-.team1 p {
-    text-align: center;
-}
-
+/* ---------------------------------customer success-------------------------- */
 .succses {
     display: flex;
     align-items: center;
@@ -286,11 +168,6 @@ padding: 18px;
     text-align: center;
     margin-top: 10px;
 }
-
-.flex {
-    flex: 1;
-}
-
 .fgsuc img{
     width: 50%;
 }
@@ -298,3 +175,105 @@ padding: 18px;
 .maindiv {
     width: 100%;
 }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    flex: 100%;
+    padding: 18px;
+}
+
+@media screen and (max-width:700px) {
+    .who-are-we .row {
+        flex: 60%;
+    }
+
+    body {
+        margin-left: 11%;
+    }
+
+    .footer {
+        margin-left: -13%;
+    }
+
+    .row .col-12 {
+        padding: 18px;
+    }
+
+    .who-are-we .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .team .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .maindiv .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+
+    .success .succdiv2 {
+        height: 86px;
+    }
+
+    .row .team {
+        width: 100%;
+    }
+
+}
+
+
+
+/* .text-block1 {
+    width: 600px;
+    text-align: center;
+    margin-right: 320px;
+}
+
+.text-block1 p {
+    text-align: center;
+    margin-right: -40px;
+} */
+
+
+
+
+
+/* 
+.simple-text2 {
+    width: 600px;
+}
+
+.simple-text2 p {
+    text-align: center;
+} */
+
+
+
+
+/* .divteam {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    width: 90%;
+    margin-right: 60px;
+} */
+/* .team1 {
+    height: 180px;
+    border-color: darkorange;
+    border-radius: 20px;
+    border-width: 1px;
+    background-color: white;
+    border-style: solid;
+    margin-inline: 1%;
+    margin-bottom: 24px;
+    width: 30%;
+
+} */
+
